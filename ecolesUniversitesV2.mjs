@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 async function fetchData() {
-  const response = await fetch("C:\Users\guirc\Desktop\siteFinal\futureDirection2\futureDirectionBackEnd\ecolesUniversites.json");
+  const response = await fetch("C:\Users\guirc\Desktop\siteFinal\futureDirection2\test\futureDirectionBackEnd\db.json");
   const data = await response.json();
   return data;
 }
