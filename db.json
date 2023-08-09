@@ -101,17 +101,6 @@
         "image": "src/assets/img/UniversitédeParis.png",
         "description": "",
         "reputation": 8
-    },
-    {
-        "id":10,
-        "Nombre d'etudiants en moyenne":2361,
-        "secteur":"Université",
-        "nom": "Université Grenoble Alpes",
-        "adresse": "Grenoble",
-        "telephone": "",
-        "image": "src/assets/img/UGA.png",
-        "description": "",
-        "reputation": 10
     }
     ]
     
