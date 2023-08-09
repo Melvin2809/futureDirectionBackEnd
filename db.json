@@ -93,7 +93,7 @@
     },
     {
         "id":9,
-        "Nombre d'etudiants en moyenne":641005,
+        "Nombre d'etudiants en moyenne":64100,
         "secteur":"Université",
         "nom": "Université de Paris",
         "adresse": "Paris",
@@ -104,7 +104,7 @@
     },
     {
         "id":10,
-        "Nombre d'etudiants en moyenne":595005,
+        "Nombre d'etudiants en moyenne":59500,
         "secteur":"Université",
         "nom": "Université Grenoble Alpes",
         "adresse": "Grenoble",
