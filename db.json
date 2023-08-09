@@ -1,35 +1,119 @@
 {
     "ecoles":[
         {
-            "id":"1",
-            "nom": "Université Paris-Saclay",
-            "adresse": "3 rue Joliot Curie, Bâtiment Breguet, 91190 Gif-sur-Yvette",
-            "telephone": "01 69 15 67 50",
-            "image": "src/assets/img/Paris-Saclay.jpg",
-            "description":"https://www.universite-paris-saclay.fr/luniversite/universite-paris-saclay#:~:text=N%C3%A9e%20de%20la%20volont%C3%A9%20conjugu%C3%A9e,des%20Sciences%20Humaines%20et%20Sociales.",
-            "reputation":"https://www.universite-paris-saclay.fr/actualites/classement-thematique-qs-2023-luniversite-paris-saclay-dans-le-top-50-mondial-pour-six-disciplines",
-            "salaire":"https://www.universite-paris-saclay.fr/actualites/la-situation-professionnelle-des-docteures-de-luniversite-paris-saclay-au-1er-decembre-2019#:~:text=Avec%20un%20doctorat%20en%20poche,m%C3%A9diane%20en%20de%2041.538%E2%82%AC."
-        },
-        {
-            "id":"2",
-            "nom": "Université Paris Dauphine - PSL",
-            "adresse": "Place du Maréchal de Lattre de Tassigny, 75775 PARIS Cedex 16",
-            "telephone": "01 44 05 44 05",
-            "image": "src/assets/img/csm_damier_logo_Dauphine_f7b37a1ff2.webp",
-            "description":"https://dauphine.psl.eu/",
-            "reputation":"https://dauphine.psl.eu/dauphine/media-et-communication/article/luniversite-paris-dauphine-psl-classee-1ere-universite-mondiale-avec-psl",
-            "salaire":"https://dauphine.psl.eu/dauphine/media-et-communication/article/enquete-cge-dexcellents-resultats-pour-linsertion-pro-de-nos-diplomes#:~:text=Les%20jeunes%20dipl%C3%B4m%C3%A9s%20de%20Dauphine,2021)%20et%20sup%C3%A9rieure%20%C3%A0%20la"
-        },
-        {
-            "id":"3",
-            "nom": "Université Paris 1 Panthéon-Sorbonne",
-            "adresse": "12 Place du Pantheon, 75231 PARIS cedex 05",
-            "telephone": "01 44 07 80 00",
-            "image": "src/assets/img/Sorbonne.png",
-            "description":"https://www.pantheonsorbonne.fr/universite/presentation",
-            "reputation":"https://international.pantheonsorbonne.fr/actualite/classement-qs-2022-par-discipline-paris-1-pantheon-sorbonne-se-distingue",
-            "salaire":"https://data.pantheonsorbonne.fr/insertion-professionnelle/insertion-professionnelle-apres-master"
-        }
+        "id":1,
+        "Nombre d'etudiants en moyenne":48000,
+        "secteur":"Université",
+        "nom": "Paris-Saclay",
+        "adresse": "Paris",
+        "telephone": "01 69 15 67 50",
+        "image": "src/assets/img/logoParisSaclay.png",
+        "description": "https://www.universite-paris-saclay.fr/luniversite/universite-paris-saclay#:~:text=N%C3%A9e%20de%20la%20volont%C3%A9%20conjugu%C3%A9e,des%20Sciences%20Humaines%20et%20Sociales.",
+        "reputation": 4,
+        "salaire": "https://www.universite-paris-saclay.fr/actualites/la-situation-professionnelle-des-docteures-de-luniversite-paris-saclay-au-1er-decembre-2019#:~:text=Avec%20un%20doctorat%20en%20poche,m%C3%A9diane%20en%20de%2041.538%E2%82%AC."
+    },
+    {
+        "id":2,
+        "Nombre d'etudiants en moyenne":9400,
+        "secteur":"Université",
+        "nom": "Paris Dauphine - PSL",
+        "adresse": "Paris",
+        "telephone": "01 44 05 44 05",
+        "image": "src/assets/img/csm_damier_logo_Dauphine_f7b37a1ff2.webp",
+        "description": "https://dauphine.psl.eu/",
+        "reputation": 1,
+        "salaire": "https://dauphine.psl.eu/dauphine/media-et-communication/article/enquete-cge-dexcellents-resultats-pour-linsertion-pro-de-nos-diplomes#:~:text=Les%20jeunes%20dipl%C3%B4m%C3%A9s%20de%20Dauphine,2021)%20et%20sup%C3%A9rieure%20%C3%A0%20la"
+    },
+    {
+        "id":3,
+        "Nombre d'etudiants en moyenne":43700,
+        "secteur":"Université",
+        "nom": "Paris 1 Panthéon-Sorbonne",
+        "adresse": "Paris",
+        "telephone": "01 44 07 80 00",
+        "image": "src/assets/img/logoPantheon.png",
+        "description": "https://www.pantheonsorbonne.fr/universite/presentation",
+        "reputation": 9,
+        "salaire": "https://data.pantheonsorbonne.fr/insertion-professionnelle/insertion-professionnelle-apres-master"
+    },
+    {
+        "id":4,
+        "Nombre d'etudiants en moyenne":8200,
+        "secteur":"Ecole",
+        "nom": "Institut Polytechnique de Paris",
+        "adresse": "Paris",
+        "telephone": "",
+        "image": "src/assets/img/poly.jpg",
+        "description": "",
+        "reputation": 2
+    },
+    {
+        "id":5,
+        "Nombre d'etudiants en moyenne":55600,
+        "secteur":"Université",
+        "nom": "Sorbonne Université",
+        "adresse": "Paris",
+        "telephone": "",
+        "image": "src/assets/img/sorbonne.jpg",
+        "description": "",
+        "reputation": 3
+    },
+    {
+        "id":6,
+        "Nombre d'etudiants en moyenne":2361,
+        "secteur":"Ecole",
+        "nom": "École Normale Supérieure de Lyon",
+        "adresse": "Lyon",
+        "telephone": "",
+        "image": "src/assets/img/ensLyon.png",
+        "description": "",
+        "reputation": 5
+    },
+    {
+        "id":7,
+        "Nombre d'etudiants en moyenne":2361,
+        "secteur":"Ecole",
+        "nom": "Ecole des Ponts ParisTech",
+        "adresse": "Paris",
+        "telephone": "",
+        "image": "src/assets/img/parisTech.jpg",
+        "description": "",
+        "reputation": 6
+    },
+    {
+        "id":8,
+        "Nombre d'etudiants en moyenne":2361,
+        "secteur":"Ecole",  
+        "nom": "Sciences Po Paris",
+        "adresse": "Paris",
+        "telephone": "",
+        "image": "src/assets/img/sciencesPo.jpg",
+        "description": "",
+        "reputation": 7
+    },
+    {
+        "id":9,
+        "Nombre d'etudiants en moyenne":2361,
+        "secteur":"Université",
+        "nom": "Université de Paris",
+        "adresse": "Paris",
+        "telephone": "",
+        "image": "src/assets/img/UniversitédeParis.png",
+        "description": "",
+        "reputation": 8
+    },
+    {
+        "id":10,
+        "Nombre d'etudiants en moyenne":2361,
+        "secteur":"Université",
+        "nom": "Université Grenoble Alpes",
+        "adresse": "Grenoble",
+        "telephone": "",
+        "image": "src/assets/img/UGA.png",
+        "description": "",
+        "reputation": 10
+    }
     ]
     
-}
+  }
+  
